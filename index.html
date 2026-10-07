@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Changa+One:ital@0;1&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header id="headerId">
+        <div class="infoContainer">
+            <h2>WEBSITE CODING SOLUTIONS</h2>
+            <ul>
+                <li>Website Building </li>
+                <li>Custom built websites  (see examples)</li>
+                <li>Back end and front end design and architecture</li>
+                <li>Hosting and Maintenence offered</li>
+            </ul>
+        </div>
+        <div class="slideshow">
+            <div class="slideshowPostions">
+                <div id="position1id" class="position1 slideshowPosition currentPosition"></div>
+                <div id="position2id" class="position2 slideshowPosition"></div>
+                <div id="position3id" class="position3 slideshowPosition"></div>
+                <div id="position4id" class="position4 slideshowPosition"></div>
+            </div>
+            <div class="slideshowPictures">
+                <video controls class="picture1video" id="picture1videoid" src="videodemo.mp4"></video>
+                <video controls class="picture2video" id="picture2videoid" src="videotr.mp4"></video>
+                <video controls class="picture3video" id="picture3videoid" src="2026-10-07 02-14-57.mkv"></video>
+                <video controls class="picture4video" id="picture4videoid" src="videoapi.mp4"></video>
+
+
+            </div>
+        </div>
+    </header>
+    <div class="stickyHeader">
+        <div class="sections">
+            <h1 class="headerItems" onclick="scrollToHome()" id="homeId">Home</h1>
+            <h1 class="headerItems" onclick="scrollToAbout()" id="aboutId">About</h1>
+            <h1 class="headerItems" onclick="scrollToContact()" id="contactId">Pricing</h1>
+            <h1 class="headerItems" onclick="scrollToLocation()" id="locationId">Contact</h1>
+        </div>
+        <div class="links">
+            <img class="logo1" id="logo3Id" src="insta.png">
+        </div>
+
+    </div>
+    <main>
+        <div class="aboutSection sectionClass">
+            <h2>ABOUT</h2>
+            <ul class="aboutInfo">
+                <li>A custom built website  and web tasks that are needed for a buisness.</li>
+                <li>It can optimise your buisness providing custom built solutions for your technical needs</li>
+                <li>Fully managed and maintained databases</li>
+                <li>Keeping the latest security in mind with a focus on this approach</li>
+                <li>Search Engine Optimisation (SEO) for high speeds and more website traffic</li>
+                <li>Control of the design is given to the customer and even accepting other designs</li>
+                <li>Offering significant perfomance increases compared to comptetion</li>
+                <li>I have been building websites for multiple years publishing my work for about 2 years</li>
+                <li>I have taken courses as well as completed university modules in this field</li>
+                <li>I specialise in back end database architecture and developing systems for buisnesses</li>
+            </ul>
+        </div>
+        <div class="contactSection sectionClass">
+            <h2>PRICING</h2>
+            <table>
+                <tr>
+                    <th>Front End</th>
+                    <th>Back End and Database</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>A 5 page basic website (About, contact, location etc..) will be on the lower end of the price range. <br> <br>More complex front end web pages will be towards the upper end of the scale. <br><br>£30p/h</td>
+                    <td>No back end required</td>
+                    <td>£200-500</td>
+                </tr>
+                <tr>
+                    <td>More complex tasks will require significant effort and testing and hours to make sure the product is ready to deploy.<br> <br> The price reflects the time spent designing the architecture, and knowledge required to test the website. <br><br>£30-50p/h</td>
+                    <td>Creating a back end that is ready to be deployed requires setting up a database as well as maintenence and increased testing,</td>
+                    <td>£1000 - £3000</td>
+
+                </tr>
+            </table>
+        </div>
+        <div class="locationSection sectionClass">
+            <h2>CONTACT</h2>
+            <h3>Right now email is the primary form of contact, please get in touch if you are interested.</h3>
+            <h2 class="email">boolcodingsolutions@outlook.com</h2>
+        </div>
+    </main>
+    <footer>
+        boolcodingsolutions 
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
