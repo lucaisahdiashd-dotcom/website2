@@ -8,6 +8,7 @@ body{
     height: 445vh;
     width: 100vw;
     font-family: "Carlito", sans-serif;
+    max-width :100%
 }
 
 h2{
