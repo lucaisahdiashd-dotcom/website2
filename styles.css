@@ -20,7 +20,7 @@ h3{
 
 header{
     height:70vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(253, 253, 253);
     display: flex;
     gap: 30vh;
@@ -127,7 +127,7 @@ h4{
     z-index: 3;
     top: 0;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(215, 217, 218);
     align-items: center;
     justify-content: center;
@@ -311,7 +311,7 @@ td{
 
 footer{
     height:5vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(45, 45, 46);
     color: #b3adad;
     display: flex;
