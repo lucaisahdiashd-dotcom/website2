@@ -311,7 +311,7 @@ td{
 
 footer{
     height:5vh;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(45, 45, 46);
     color: #b3adad;
     display: flex;
